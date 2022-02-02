@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url("../img/2170333-marte-roxo-espaco-paisagem-com-grandes-planetas-no-ceu-estrelado-purpura-meteoros-e-montanhas-natureza-em-outro-planeta-com-um-grande-planeta-no-horizonte-vetor.jpg") no-repeat;
+    background-size:cover;
+    
+    
+}
+#menus{
+    display:flex;
+    background:rgba(161, 159, 159, 0);
+    width:100%;
+    padding:3px 3px 0 0;
+    height:80px;
+    background:rgba(204, 204, 204, 0.703);
+    box-sizing:border-box;
+    font-size: 17px;
+    color:rgb(22, 22, 22)
+    
+    
+    
+}
+.menu_dia{
+    text-align:center;
+    min-width:90px;
+    font-size:20px;
+    padding:10px 5px;
+    word-wrap:break-word;
+    margin: 5px 3px 0 0;
+    color:black;
+    margin-top:20px
+
+}
+.menu_dia:hover{
+    /*background: linear-gradient(red,blue,green);*/
+    background:linear-gradient(150deg, rgba(235, 25, 70, 0.808),rgb(130, 9, 230));  
+    border-radius:15px 15px 0 0;
+    color:rgb(254, 254, 254);
+    margin-top:30px
+}
+section{
+    background:rgba(193, 203, 211, 0.337);
+    width:80%;
+    padding:20px;
+    height:auto;
+    margin:8% auto;
+    border-radius:10px;
+    
+}
