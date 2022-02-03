@@ -5,8 +5,9 @@
 body{
     background:url("../img/2170333-marte-roxo-espaco-paisagem-com-grandes-planetas-no-ceu-estrelado-purpura-meteoros-e-montanhas-natureza-em-outro-planeta-com-um-grande-planeta-no-horizonte-vetor.jpg") no-repeat;
     background-size:cover;
-    
-    
+    box-sizing:border-box;
+    background-attachment:fixed;
+    min-width: 900px;
 }
 #menus{
     display:flex;
@@ -14,15 +15,16 @@ body{
     width:100%;
     padding:3px 3px 0 0;
     height:80px;
-    background:rgba(204, 204, 204, 0.703);
+    background:rgba(204, 204, 204, 0.911);
     box-sizing:border-box;
     font-size: 17px;
-    color:rgb(22, 22, 22)
+    color:rgb(22, 22, 22);
+    background-attachment:fixed;
     
     
     
 }
-.menu_dia{
+.menu_dia {
     text-align:center;
     min-width:90px;
     font-size:20px;
@@ -35,17 +37,70 @@ body{
 }
 .menu_dia:hover{
     /*background: linear-gradient(red,blue,green);*/
-    background:linear-gradient(150deg, rgba(235, 25, 70, 0.808),rgb(130, 9, 230));  
+    background:linear-gradient(30deg, rgb(60 0 86),rgba(235, 25, 70, 0.808));  
     border-radius:15px 15px 0 0;
     color:rgb(254, 254, 254);
-    margin-top:30px
+    margin-top:28px;
+    box-shadow:2px 5px 10px 5px rgb(60 0 86);
 }
 section{
-    background:rgba(193, 203, 211, 0.337);
-    width:80%;
+    background:rgba(204, 204, 204, 0.911);
+    max-width: 60%;
     padding:20px;
     height:auto;
     margin:8% auto;
     border-radius:10px;
+    box-sizing:border-box;
+   
     
+}
+#headDiaSemana{
+    margin-bottom:8px;
+    min-width:90px;
+    white-space:nowrap;
+   
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    
+    
+}
+#headDiaSemana p{
+    
+    margin-bottom:10px;
+    list-style-type:none;
+    list-style:none;
+    font-size: auto;
+    font-weight: bold;
+    height:20px;
+    margin: 0 40px 0 0;
+    padding:10px;
+
+    
+    
+    
+}
+#headDiaSemana p:hover{
+   
+    background:linear-gradient(30deg, rgb(60 0 86),rgba(235, 25, 70, 0.808));  
+    border-radius:10px 10px 0 0;
+    text-align:center;
+    color:rgb(254, 254, 254);
+    box-shadow:2px 5px 10px 5px rgb(60 0 86);
+
+}
+
+.check {
+    display:flex;
+    max-width:75px;
+    text-align:center;
+    color:rgb(9, 8, 10);
+    font-weight:bold;
+    
+}
+.checkbox{
+    margin-top:5px;
+    width:20px;
+    height:20px;
 }
